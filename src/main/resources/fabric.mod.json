@@ -3,9 +3,9 @@
 	"id": "wandering-wilds",
 	"version": "${version}",
 	"name": "Wandering Wilds",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds a bunch of new decoration and nature related blocks expanding on 1.19 (and some lore)",
 	"authors": [
-		"Me!"
+		"Joyeux"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -26,19 +26,12 @@
 		]
 	},
 	"mixins": [
-		"wandering-wilds.mixins.json",
-		{
-			"config": "wandering-wilds.client.mixins.json",
-			"environment": "client"
-		}
+
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
