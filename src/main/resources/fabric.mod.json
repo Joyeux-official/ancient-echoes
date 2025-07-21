@@ -22,7 +22,7 @@
 			"com.wanderingwilds.WanderingWildsClient"
 		],
 		"fabric-datagen": [
-			"com.wanderingwilds.WanderingWildsDataGenerator"
+			"com.wanderingwilds.datagen.WanderingWildsDataGenerator"
 		]
 	},
 	"mixins": [
