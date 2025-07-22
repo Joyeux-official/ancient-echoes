@@ -5,6 +5,10 @@
       "feature": {
         "type": "minecraft:block_column",
         "config": {
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
           "direction": "up",
           "layers": [
             {
@@ -28,17 +32,48 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Name": "wandering-wilds:cactus_flower"
-                }
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "data": {
+                      "Name": "wandering-wilds:magenta_cactus_flower"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "wandering-wilds:yellow_cactus_flower"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "wandering-wilds:red_cactus_flower"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "wandering-wilds:white_cactus_flower"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "wandering-wilds:orange_cactus_flower"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "wandering-wilds:blue_cactus_flower"
+                    },
+                    "weight": 1
+                  }
+                ]
               }
             }
           ],
-          "allowed_placement": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
-          },
           "prioritize_tip": false
         }
       },

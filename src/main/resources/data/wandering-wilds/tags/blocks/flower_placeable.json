@@ -7,6 +7,7 @@
     "minecraft:cactus",
     "minecraft:sand",
     "minecraft:coarse_dirt",
-    "minecraft:mycelium"
+    "minecraft:mycelium",
+    "minecraft:red_sand",
   ]
 }

@@ -1,9 +1,7 @@
 package com.wanderingwilds.core.blocks;
 
 import net.minecraft.block.*;
-import net.minecraft.block.enums.Instrument;
 import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
@@ -14,7 +12,7 @@ import net.minecraft.world.BlockView;
 
 public class CactusFlower extends PlantBlock implements SuspiciousStewIngredient {
     protected static final float field_31094 = 3.0F;
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(5.0F, 0.0F, 5.0F, 13.0F, 2.0F, 13.0F);
+    protected static final VoxelShape SHAPE = Block.createCuboidShape(4.0F, 0.0F, 4.0F, 12.0F, 2.0F, 12.0F);
 
     private static final TagKey<Block> PLACEABLE_ON = TagKey.of(Registries.BLOCK.getKey(), new Identifier("wandering-wilds", "flower_placeable"));
 

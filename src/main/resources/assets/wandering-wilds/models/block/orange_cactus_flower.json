@@ -1,0 +1,10 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "wandering-wilds:block/cactus_flower",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "wandering-wilds:block/orange_cactus_flower",
+		"particle": "wandering-wilds:block/orange_cactus_flower"
+	}
+}

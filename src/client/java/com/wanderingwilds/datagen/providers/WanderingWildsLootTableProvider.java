@@ -24,7 +24,12 @@ public class WanderingWildsLootTableProvider extends FabricBlockLootTableProvide
     public void generate() {
 
                 addDrop(WanderingWildsBlocks.CHISELED_SCULK);
-                addDrop(WanderingWildsBlocks.CACTUS_FLOWER);
+                addDrop(WanderingWildsBlocks.MAGENTA_CACTUS_FLOWER);
+                addDrop(WanderingWildsBlocks.PURPLE_CACTUS_FLOWER);
+                addDrop(WanderingWildsBlocks.RED_CACTUS_FLOWER);
+                addDrop(WanderingWildsBlocks.YELLOW_CACTUS_FLOWER);
+                addDrop(WanderingWildsBlocks.ORANGE_CACTUS_FLOWER);
+                addDrop(WanderingWildsBlocks.WHITE_CACTUS_FLOWER);
 
     }
 

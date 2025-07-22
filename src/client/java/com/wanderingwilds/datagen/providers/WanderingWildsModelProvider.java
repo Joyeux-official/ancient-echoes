@@ -22,7 +22,12 @@ public class WanderingWildsModelProvider extends JoyeuxLibModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.MAGENTA_CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.PURPLE_CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.RED_CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.ORANGE_CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.YELLOW_CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(WanderingWildsBlocks.WHITE_CACTUS_FLOWER), Models.GENERATED);
 
     }
 }

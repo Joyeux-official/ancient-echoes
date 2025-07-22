@@ -20,7 +20,22 @@ public class WanderingWildsBlocks {
     public static final Block CHISELED_SCULK = registerBlock("chiseled_sculk",
             new Block(FabricBlockSettings.copyOf(Blocks.SCULK_CATALYST).sounds(BlockSoundGroup.SCULK_CATALYST)));
 
-    public static final Block CACTUS_FLOWER = registerBlock("cactus_flower",
+    public static final Block MAGENTA_CACTUS_FLOWER = registerBlock("magenta_cactus_flower",
+            new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block PURPLE_CACTUS_FLOWER = registerBlock("purple_cactus_flower",
+            new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block RED_CACTUS_FLOWER = registerBlock("red_cactus_flower",
+            new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block YELLOW_CACTUS_FLOWER = registerBlock("yellow_cactus_flower",
+            new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block ORANGE_CACTUS_FLOWER = registerBlock("orange_cactus_flower",
+            new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block WHITE_CACTUS_FLOWER = registerBlock("white_cactus_flower",
             new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
 
 

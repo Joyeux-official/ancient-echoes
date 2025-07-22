@@ -4,9 +4,7 @@ import com.wanderingwilds.core.WanderingWildsBlocks;
 import com.wanderingwilds.core.WanderingWildsItemGroups;
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
