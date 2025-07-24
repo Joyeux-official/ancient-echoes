@@ -30,6 +30,7 @@ public class AncientEchoesLootTableProvider extends FabricBlockLootTableProvider
                 addDrop(AncientEchoesBlocks.YELLOW_CACTUS_FLOWER);
                 addDrop(AncientEchoesBlocks.ORANGE_CACTUS_FLOWER);
                 addDrop(AncientEchoesBlocks.WHITE_CACTUS_FLOWER);
+                addDrop(AncientEchoesBlocks.WARDEN_HEAD_BLOCK);
 
     }
 

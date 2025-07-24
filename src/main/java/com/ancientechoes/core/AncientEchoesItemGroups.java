@@ -17,6 +17,7 @@ public class AncientEchoesItemGroups {
 
 
                         entries.add(AncientEchoesBlocks.CHISELED_SCULK );
+                        entries.add(AncientEchoesBlocks.WARDEN_HEAD_BLOCK );
                         entries.add(AncientEchoesBlocks.MAGENTA_CACTUS_FLOWER);
                         entries.add(AncientEchoesBlocks.PURPLE_CACTUS_FLOWER);
                         entries.add(AncientEchoesBlocks.RED_CACTUS_FLOWER);

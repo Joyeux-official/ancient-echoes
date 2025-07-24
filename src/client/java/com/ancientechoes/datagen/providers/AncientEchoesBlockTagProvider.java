@@ -21,6 +21,7 @@ public class AncientEchoesBlockTagProvider extends FabricTagProvider.BlockTagPro
                 .add(AncientEchoesBlocks.CHISELED_SCULK)
         ;
 
+
        getOrCreateTagBuilder(BlockTags.FLOWERS)
                .add(AncientEchoesBlocks.MAGENTA_CACTUS_FLOWER)
                .add(AncientEchoesBlocks.PURPLE_CACTUS_FLOWER)

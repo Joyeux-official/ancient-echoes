@@ -19,11 +19,14 @@ public class AncientEchoes implements ModInitializer {
 		return new Identifier(MOD_ID, path);
 	}
 
+
+
 	@Override
 	public void onInitialize() {
 
 		AncientEchoesItemGroups.initialize();
 		AncientEchoesBlocks.registerAncientEchoesBlocks();
+
 
 	}
 }

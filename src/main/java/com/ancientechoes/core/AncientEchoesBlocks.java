@@ -3,6 +3,7 @@ package com.ancientechoes.core;
 
 import com.ancientechoes.AncientEchoes;
 import com.ancientechoes.core.blocks.CactusFlower;
+import com.ancientechoes.core.blocks.WardenHeadBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -37,6 +38,9 @@ public class AncientEchoesBlocks {
 
     public static final Block WHITE_CACTUS_FLOWER = registerBlock("white_cactus_flower",
             new CactusFlower(StatusEffects.POISON, 7, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.FLOWERING_AZALEA).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block WARDEN_HEAD_BLOCK = registerBlock("warden_head",
+            new WardenHeadBlock(FabricBlockSettings.copyOf(Blocks.PLAYER_HEAD).sounds(BlockSoundGroup.SCULK)));
 
 
 

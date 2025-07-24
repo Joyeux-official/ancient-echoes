@@ -1,6 +1,8 @@
 package com.ancientechoes.datagen;
 
+import com.ancientechoes.AncientEchoes;
 import com.ancientechoes.core.AncientEchoesBlocks;
+import com.ancientechoes.datagen.providers.*;
 import com.joyeuxlib.datagenproviders.JoyeuxLibEnglishLangProvider;
 import com.joyeuxlib.datagenproviders.JoyeuxLibRecipeProvider;
 import com.joyeuxlib.datagenproviders.JoyeuxLibSoundProvider;
@@ -24,22 +26,37 @@ public class AncientEchoesDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(this::englishTranslationsProvider);
 		pack.addProvider(this::addSounds);
 		pack.addProvider(this::recipeProvider);
-		pack.addProvider(com.ancientechoes.datagen.providers.AncientEchoesBlockTagProvider::new);
-		pack.addProvider(com.ancientechoes.datagen.providers.AncientEchoesItemTagProvider::new);
-		pack.addProvider(com.ancientechoes.datagen.providers.AncientEchoesLootTableProvider::new);
-		pack.addProvider(com.ancientechoes.datagen.providers.AncientEchoesModelProvider::new);
+		pack.addProvider(AncientEchoesBlockTagProvider::new);
+		pack.addProvider(AncientEchoesItemTagProvider::new);
+		pack.addProvider(AncientEchoesLootTableProvider::new);
+		pack.addProvider(AncientEchoesModelProvider::new);
+		generateachivement(pack);
 	}
 
 	public JoyeuxLibEnglishLangProvider englishTranslationsProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
 		JoyeuxLibEnglishLangProvider joyENUSLang = new JoyeuxLibEnglishLangProvider(output);
-joyENUSLang.addTranslation("itemgroup.ancient","Ancient Echoes");
-joyENUSLang.addTranslation("block.ancient-echoes.chiseled_sculk","Chiseled Sculk");
-joyENUSLang.addTranslation("block.ancient-echoes.magenta_cactus_flower","Magenta Cactus Flower");
-joyENUSLang.addTranslation("block.ancient-echoes.purple_cactus_flower","Purple Cactus Flower");
-joyENUSLang.addTranslation("block.ancient-echoes.red_cactus_flower","Red Cactus Flower");
-joyENUSLang.addTranslation("block.ancient-echoes.orange_cactus_flower","Orange Cactus Flower");
-joyENUSLang.addTranslation("block.ancient-echoes.yellow_cactus_flower","Yellow Cactus Flower");
-joyENUSLang.addTranslation("block.ancient-echoes.white_cactus_flower","White Cactus Flower");
+
+// Item Groups
+		joyENUSLang.addTranslation("itemgroup.ancient","Ancient Echoes");
+
+// Blocks
+		joyENUSLang.addTranslation("block.ancient-echoes.chiseled_sculk","Chiseled Sculk");
+		joyENUSLang.addTranslation("block.ancient-echoes.magenta_cactus_flower","Magenta Cactus Flower");
+		joyENUSLang.addTranslation("block.ancient-echoes.purple_cactus_flower","Purple Cactus Flower");
+		joyENUSLang.addTranslation("block.ancient-echoes.red_cactus_flower","Red Cactus Flower");
+		joyENUSLang.addTranslation("block.ancient-echoes.orange_cactus_flower","Orange Cactus Flower");
+		joyENUSLang.addTranslation("block.ancient-echoes.yellow_cactus_flower","Yellow Cactus Flower");
+		joyENUSLang.addTranslation("block.ancient-echoes.white_cactus_flower","White Cactus Flower");
+		joyENUSLang.addTranslation("block.ancient-echoes.warden_head","Warden Head");
+
+// Achievements
+		joyENUSLang.addTranslation("achievement.ancient-echoes.title.root","Ancient Echoes");
+		joyENUSLang.addTranslation("achievement.ancient-echoes.description.root","Discover the secrets of the Ancient Beings");
+
+		joyENUSLang.addTranslation("achievement.ancient-echoes.title.obtain_warden_head","Guardian Of The Deep Dark!");
+		joyENUSLang.addTranslation("achievement.ancient-echoes.description.obtain_warden_head","Discover the secrets of the Ancient Beings");
+
+
 		return joyENUSLang;
 	}
 
@@ -84,4 +101,9 @@ joyENUSLang.addTranslation("block.ancient-echoes.white_cactus_flower","White Cac
 
 		return joyRecipe;
 	}
+
+	private void generateachivement(FabricDataGenerator.Pack pack) {
+		pack.addProvider(AncientEchoesAchievementProvider::new);
+	}
+
 }
