@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "wandering-wilds",
+	"id": "ancient-echoes",
 	"version": "${version}",
-	"name": "Wandering Wilds",
+	"name": "Ancient Echoes",
 	"description": "Adds a bunch of new decoration and nature related blocks expanding on 1.19 (and some lore)",
 	"authors": [
 		"Joyeux"
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/wandering-wilds/icon.png",
+	"icon": "assets/ancient-echoes/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.wanderingwilds.WanderingWilds"
+			"com.ancientechoes.AncientEchoes"
 		],
 		"client": [
-			"com.wanderingwilds.WanderingWildsClient"
+			"com.ancientechoes.AncientEchoesClient"
 		],
 		"fabric-datagen": [
-			"com.wanderingwilds.datagen.WanderingWildsDataGenerator"
+			"com.ancientechoes.datagen.AncientEchoesDataGenerator"
 		]
 	},
 	"mixins": [

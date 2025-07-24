@@ -49,8 +49,8 @@ jobs:
         with:
           url: ${{ secrets.JOYEUX_SERVER }}
           file: 'build/libs/*'
-          username: WanderingWilds Auto-Compiled Build
-          avatar: 'https://github.com/Joyeux-official/wandering-wilds/blob/master/src/main/resources/assets/wandering-wilds/icon.png?raw=true'
+          username: AncientEchoes Auto-Compiled Build
+          avatar: 'https://github.com/Joyeux-official/ancient-echoes/blob/master/src/main/resources/assets/ancient-echoes/icon.png?raw=true'
           commit: '> :sparkles: [%MESSAGE%](<%LINK%>) by [%AUTHOR%](<%AUTHOR_LINK%>)! Happy testing!'
           message: |
             <:new1:1253371736510959636><:new2:1253371805734015006> New `${{ github.repository }}` developer build `#${{ github.run_number }}`:

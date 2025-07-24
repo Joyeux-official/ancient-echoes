@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ancient-echoes:block/chiseled_sculk_bottom",
+    "east": "ancient-echoes:block/chiseled_sculk",
+    "north": "ancient-echoes:block/chiseled_sculk",
+    "particle": "ancient-echoes:block/chiseled_sculk",
+    "south": "ancient-echoes:block/chiseled_sculk",
+    "up": "ancient-echoes:block/chiseled_sculk_top",
+    "west": "ancient-echoes:block/chiseled_sculk"
+  }
+}

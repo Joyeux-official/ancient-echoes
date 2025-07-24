@@ -27,7 +27,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"wandering-wilds" {
+		"ancient-echoes" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
