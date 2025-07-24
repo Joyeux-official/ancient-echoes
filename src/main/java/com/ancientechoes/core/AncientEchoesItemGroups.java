@@ -16,8 +16,9 @@ public class AncientEchoesItemGroups {
                     .icon(() -> new ItemStack(AncientEchoesBlocks.CHISELED_SCULK)).entries((displayContext, entries) -> {
 
 
-                        entries.add(AncientEchoesBlocks.CHISELED_SCULK );
-                        entries.add(AncientEchoesBlocks.WARDEN_HEAD_BLOCK );
+                        entries.add(AncientEchoesBlocks.CHISELED_SCULK);
+                        entries.add(AncientEchoesBlocks.WARDEN_HEAD_BLOCK);
+                        entries.add(AncientEchoesItems.WARDEN_BREACHER);
                         entries.add(AncientEchoesBlocks.MAGENTA_CACTUS_FLOWER);
                         entries.add(AncientEchoesBlocks.PURPLE_CACTUS_FLOWER);
                         entries.add(AncientEchoesBlocks.RED_CACTUS_FLOWER);

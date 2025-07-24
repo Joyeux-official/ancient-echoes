@@ -54,7 +54,7 @@ public class AncientEchoesDataGenerator implements DataGeneratorEntrypoint {
 		joyENUSLang.addTranslation("achievement.ancient-echoes.description.root","Discover the secrets of the Ancient Beings");
 
 		joyENUSLang.addTranslation("achievement.ancient-echoes.title.obtain_warden_head","Guardian Of The Deep Dark!");
-		joyENUSLang.addTranslation("achievement.ancient-echoes.description.obtain_warden_head","Discover the secrets of the Ancient Beings");
+		joyENUSLang.addTranslation("achievement.ancient-echoes.description.obtain_warden_head","Behead the Warden with a Warden Breacher to obtain its head");
 
 
 		return joyENUSLang;
