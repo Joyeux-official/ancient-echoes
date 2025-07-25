@@ -49,6 +49,12 @@ public class AncientEchoesDataGenerator implements DataGeneratorEntrypoint {
 		joyENUSLang.addTranslation("block.ancient-echoes.white_cactus_flower","White Cactus Flower");
 		joyENUSLang.addTranslation("block.ancient-echoes.warden_head","Warden Head");
 
+// Items
+
+		joyENUSLang.addTranslation("item.ancient-echoes.warden_breacher","Warden Breacher");
+		joyENUSLang.addTranslation("item.ancient-echoes.warden_smithing_upgrade","Warden Smithing Upgrade");
+
+
 // Achievements
 		joyENUSLang.addTranslation("achievement.ancient-echoes.title.root","Ancient Echoes");
 		joyENUSLang.addTranslation("achievement.ancient-echoes.description.root","Discover the secrets of the Ancient Beings");

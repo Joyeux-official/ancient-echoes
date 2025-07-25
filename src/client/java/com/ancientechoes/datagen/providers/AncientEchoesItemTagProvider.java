@@ -22,6 +22,7 @@ public class AncientEchoesItemTagProvider extends FabricTagProvider.ItemTagProvi
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(AncientEchoesItems.WARDEN_BREACHER)
+                .add(AncientEchoesItems.WARDEN_SMITHING_UPGRADE)
         ;
 
 

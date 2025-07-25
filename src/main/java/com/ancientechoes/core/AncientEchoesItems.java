@@ -2,6 +2,7 @@ package com.ancientechoes.core;
 
 import com.ancientechoes.AncientEchoes;
 import com.ancientechoes.core.Items.WardenBreacherItem;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -13,8 +14,13 @@ public class AncientEchoesItems {
 
 
     public static final Item WARDEN_BREACHER = registerItem("warden_breacher",
-            new WardenBreacherItem(AncientEchoesToolMaterials.WARDEN_BREACHER, 10, -1.5F, new Item.Settings().maxCount(1))
+            new WardenBreacherItem(AncientEchoesToolMaterials.WARDEN_BREACHER, 20, -1.5F, new Item.Settings().maxCount(1))
     );
+
+    public static final Item WARDEN_SMITHING_UPGRADE = registerItem("warden_smithing_upgrade",
+            new Item(new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 

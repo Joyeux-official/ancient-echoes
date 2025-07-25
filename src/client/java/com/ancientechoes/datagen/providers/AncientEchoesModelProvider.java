@@ -1,5 +1,6 @@
 package com.ancientechoes.datagen.providers;
 
+import com.ancientechoes.core.AncientEchoesItems;
 import com.joyeuxlib.datagenproviders.JoyeuxLibModelProvider;
 import com.ancientechoes.core.AncientEchoesBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -28,6 +29,7 @@ public class AncientEchoesModelProvider extends JoyeuxLibModelProvider {
         itemModelGenerator.register(Item.fromBlock(AncientEchoesBlocks.ORANGE_CACTUS_FLOWER), Models.GENERATED);
         itemModelGenerator.register(Item.fromBlock(AncientEchoesBlocks.YELLOW_CACTUS_FLOWER), Models.GENERATED);
         itemModelGenerator.register(Item.fromBlock(AncientEchoesBlocks.WHITE_CACTUS_FLOWER), Models.GENERATED);
+        itemModelGenerator.register(AncientEchoesItems.WARDEN_SMITHING_UPGRADE, Models.GENERATED);
 
     }
 }
