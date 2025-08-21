@@ -17,15 +17,12 @@ public class AncientEchoesItemGroups {
 
 
                         entries.add(AncientEchoesBlocks.CHISELED_SCULK);
-                        entries.add(AncientEchoesBlocks.WARDEN_HEAD_BLOCK);
-                        entries.add(AncientEchoesItems.WARDEN_BREACHER);
-                        entries.add(AncientEchoesItems.WARDEN_SMITHING_UPGRADE);
-                        entries.add(AncientEchoesBlocks.MAGENTA_CACTUS_FLOWER);
-                        entries.add(AncientEchoesBlocks.PURPLE_CACTUS_FLOWER);
-                        entries.add(AncientEchoesBlocks.RED_CACTUS_FLOWER);
-                        entries.add(AncientEchoesBlocks.ORANGE_CACTUS_FLOWER);
-                        entries.add(AncientEchoesBlocks.YELLOW_CACTUS_FLOWER);
-                        entries.add(AncientEchoesBlocks.WHITE_CACTUS_FLOWER);
+                        entries.add(AncientEchoesItems.MARSHMALLOW);
+                        entries.add(AncientEchoesItems.MARSHMALLOW_ON_A_STICK);
+                        entries.add(AncientEchoesItems.LIGHTLY_ROASTED_MARSHMALLOW_ON_A_STICK);
+                        entries.add(AncientEchoesItems.GOLDEN_MARSHMALLOW_ON_A_STICK);
+                        entries.add(AncientEchoesItems.BURNT_MARSHMALLOW_ON_A_STICK);
+
 
 
                     }).build());

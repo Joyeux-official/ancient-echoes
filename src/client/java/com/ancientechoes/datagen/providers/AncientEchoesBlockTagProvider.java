@@ -22,14 +22,6 @@ public class AncientEchoesBlockTagProvider extends FabricTagProvider.BlockTagPro
         ;
 
 
-       getOrCreateTagBuilder(BlockTags.FLOWERS)
-               .add(AncientEchoesBlocks.MAGENTA_CACTUS_FLOWER)
-               .add(AncientEchoesBlocks.PURPLE_CACTUS_FLOWER)
-               .add(AncientEchoesBlocks.RED_CACTUS_FLOWER)
-               .add(AncientEchoesBlocks.YELLOW_CACTUS_FLOWER)
-               .add(AncientEchoesBlocks.ORANGE_CACTUS_FLOWER)
-               .add(AncientEchoesBlocks.WHITE_CACTUS_FLOWER)
-        ;
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)

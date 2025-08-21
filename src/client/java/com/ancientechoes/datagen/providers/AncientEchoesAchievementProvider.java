@@ -25,15 +25,8 @@ public class AncientEchoesAchievementProvider extends FabricAdvancementProvider 
                         Text.translatable("achievement.ancient-echoes.description.root"),
                         new Identifier("textures/block/anvil.png"),
                         AdvancementFrame.TASK, false, false, false)
-                .criterion("root", InventoryChangedCriterion.Conditions.items(AncientEchoesBlocks.WARDEN_HEAD_BLOCK))
+                .criterion("root", InventoryChangedCriterion.Conditions.items(AncientEchoesBlocks.CHISELED_SCULK))
                 .build(consumer, AncientEchoes.MOD_ID + "/root");
 
-        Advancement jellyBabies = Advancement.Builder.create().parent(root)
-                .display(AncientEchoesBlocks.WARDEN_HEAD_BLOCK,
-                        Text.translatable("achievement.ancient-echoes.title.obtain_warden_head"),
-                        Text.translatable("achievement.ancient-echoes.description.obtain_warden_head"),
-                        null, AdvancementFrame.GOAL, true, true, true)
-                .criterion("obtain_warden_head", InventoryChangedCriterion.Conditions.items(AncientEchoesBlocks.WARDEN_HEAD_BLOCK))
-                .build(consumer, AncientEchoes.MOD_ID + "/obtain_warden_head");
     }
 }

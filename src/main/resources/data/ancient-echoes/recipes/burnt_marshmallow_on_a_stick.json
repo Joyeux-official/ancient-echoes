@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0,
+  "ingredient": {
+    "item": "ancient-echoes:golden_marshmallow_on_a_stick"
+  },
+  "result": "ancient-echoes:burnt_marshmallow_on_a_stick"
+}

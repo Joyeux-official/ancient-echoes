@@ -1,4 +1,4 @@
-![Replace this with a description](https://cdn.modrinth.com/data/cached_images/68c0c2115edaee2979e31d302753bb117a5ddefb.png)
+![logo.png](src/main/resources/assets/ancient-echoes/logo.png)
 
 -------------
 
