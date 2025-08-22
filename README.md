@@ -23,6 +23,21 @@
 
 
 -------------
+
+<h2>
+  <img src="https://cdn.modrinth.com/data/cached_images/808c7934614530076d21dd0cf5c5e2e992595985.png"
+       alt="Compatibility"
+       width="25"
+       height="25"
+       style="vertical-align: middle; margin-right: 8px;">
+  Required Mods!
+</h2>
+
+- [Fancy Menu: v3.6.2 MC 1.20.1](https://modrinth.com/mod/fancymenu)
+- [Konkrete: Latest 1.20.1 Fabric](https://modrinth.com/mod/konkrete)
+- [Melody: Latest 1.20.1 Fabric](https://modrinth.com/mod/melody)
+- [Joyeux Lib: Latest 1.20.1 Fabric](https://modrinth.com/mod/joyeuxlib)
+- [Fabric API: Latest 1.20.1](https://modrinth.com/mod/fabric-api)
 -------------
 
 <h2>

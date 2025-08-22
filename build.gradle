@@ -21,7 +21,12 @@ repositories {
 		metadataSources {
 			artifact()}}
 
+    maven {
+        url "https://cursemaven.com"
+    }
 }
+
+
 
 loom {
 	splitEnvironmentSourceSets()
@@ -45,6 +50,9 @@ dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "curse.maven:fancymenu-367706:6722586"
+    modImplementation "curse.maven:konkrete-fabric-416797:5142502"
+    modImplementation "curse.maven:melody-938643:5139711"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
