@@ -33,9 +33,6 @@
   Required Mods!
 </h2>
 
-- [Fancy Menu: v3.6.2 MC 1.20.1](https://modrinth.com/mod/fancymenu)
-- [Konkrete: Latest 1.20.1 Fabric](https://modrinth.com/mod/konkrete)
-- [Melody: Latest 1.20.1 Fabric](https://modrinth.com/mod/melody)
 - [Joyeux Lib: Latest 1.20.1 Fabric](https://modrinth.com/mod/joyeuxlib)
 - [Fabric API: Latest 1.20.1](https://modrinth.com/mod/fabric-api)
 -------------
