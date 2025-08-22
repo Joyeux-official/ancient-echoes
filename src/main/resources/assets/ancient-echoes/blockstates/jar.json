@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "marshmallow=false,lightlyroasted_marshmallow=false,golden_marshmallow=false,burnt_marshmallow=false": {
+      "model": "ancient-echoes:block/jar"
+    },
+    "marshmallow=true,lightlyroasted_marshmallow=false,golden_marshmallow=false,burnt_marshmallow=false": {
+      "model": "ancient-echoes:block/jar_marshmallow"
+    },
+    "marshmallow=false,lightlyroasted_marshmallow=true,golden_marshmallow=false,burnt_marshmallow=false": {
+      "model": "ancient-echoes:block/jar_lightlyroasted"
+    },
+    "marshmallow=false,lightlyroasted_marshmallow=false,golden_marshmallow=true,burnt_marshmallow=false": {
+      "model": "ancient-echoes:block/jar_golden"
+    },
+    "marshmallow=false,lightlyroasted_marshmallow=false,golden_marshmallow=false,burnt_marshmallow=true": {
+      "model": "ancient-echoes:block/jar_burnt"
+    }
+  }
+}

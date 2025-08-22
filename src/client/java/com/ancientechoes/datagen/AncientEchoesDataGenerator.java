@@ -10,10 +10,13 @@ import com.joyeuxlib.datagenproviders.JoyeuxLibSoundProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.minecraft.block.Blocks;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -42,6 +45,7 @@ public class AncientEchoesDataGenerator implements DataGeneratorEntrypoint {
 
 // Blocks
 		joyENUSLang.addTranslation(AncientEchoesBlocks.CHISELED_SCULK,"Chiseled Sculk");
+        joyENUSLang.addTranslation(AncientEchoesBlocks.JAR,"Jar");
 
 // Items
         joyENUSLang.addTranslation(AncientEchoesItems.MARSHMALLOW,"Marshmallow");
@@ -75,14 +79,21 @@ joyRecipe.addShapelessRecipe(ShapelessRecipeJsonBuilder
         .criterion(hasItem(Items.SUGAR), conditionsFromItem(Items.SUGAR))
         .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT)));
 
-        joyRecipe.addShapelessRecipe(ShapelessRecipeJsonBuilder
-                .create(RecipeCategory.FOOD, AncientEchoesItems.MARSHMALLOW_ON_A_STICK, 1)
-                .input(AncientEchoesItems.MARSHMALLOW)
-                .input(Items.STICK)
-                .criterion(hasItem(AncientEchoesItems.MARSHMALLOW), conditionsFromItem(AncientEchoesItems.MARSHMALLOW))
-                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK)));
+joyRecipe.addShapelessRecipe(ShapelessRecipeJsonBuilder
+        .create(RecipeCategory.FOOD, AncientEchoesItems.MARSHMALLOW_ON_A_STICK, 1)
+        .input(AncientEchoesItems.MARSHMALLOW)
+        .input(Items.STICK)
+        .criterion(hasItem(AncientEchoesItems.MARSHMALLOW), conditionsFromItem(AncientEchoesItems.MARSHMALLOW))
+        .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK)));
 
-
+joyRecipe.addShapedRecipe(ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, AncientEchoesBlocks.JAR, 1)
+        .pattern(" S ")
+        .pattern("G G")
+        .pattern("GGG")
+        .input('G', Blocks.GLASS)
+        .input('S', ItemTags.WOODEN_SLABS)
+        .criterion(hasItem(Blocks.GLASS), conditionsFromItem(Blocks.GLASS))
+        .criterion(hasItem(Items.OAK_FENCE), conditionsFromItem(Items.OAK_FENCE)));
 
 
         return joyRecipe;

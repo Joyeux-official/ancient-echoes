@@ -24,6 +24,7 @@ public class AncientEchoesLootTableProvider extends FabricBlockLootTableProvider
     public void generate() {
 
                 addDrop(AncientEchoesBlocks.CHISELED_SCULK);
+                addDrop(AncientEchoesBlocks.JAR);
 
     }
 

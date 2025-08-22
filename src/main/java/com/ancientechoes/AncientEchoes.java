@@ -30,6 +30,5 @@ public class AncientEchoes implements ModInitializer {
 		AncientEchoesBlocks.registerAncientEchoesBlocks();
 		AncientEchoesItems.registerAncientEchoesItems();
 
-
 	}
 	}

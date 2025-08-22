@@ -2,6 +2,7 @@ package com.ancientechoes.core;
 
 
 import com.ancientechoes.AncientEchoes;
+import com.ancientechoes.core.blocks.JarBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -18,6 +19,8 @@ public class AncientEchoesBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.SCULK_CATALYST).sounds(BlockSoundGroup.SCULK_CATALYST)));
 
 
+    public static final Block JAR = registerBlock("jar",
+            new JarBlock(FabricBlockSettings.copyOf(Blocks.SCAFFOLDING).sounds(BlockSoundGroup.GLASS)));
 
 
     private static Block registerBlock(String name, Block block) {

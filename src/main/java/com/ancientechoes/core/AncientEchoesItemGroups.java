@@ -22,6 +22,7 @@ public class AncientEchoesItemGroups {
                         entries.add(AncientEchoesItems.LIGHTLY_ROASTED_MARSHMALLOW_ON_A_STICK);
                         entries.add(AncientEchoesItems.GOLDEN_MARSHMALLOW_ON_A_STICK);
                         entries.add(AncientEchoesItems.BURNT_MARSHMALLOW_ON_A_STICK);
+                        entries.add(AncientEchoesBlocks.JAR);
 
 
 
